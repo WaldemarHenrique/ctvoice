@@ -1,8 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  font-family: 'Roboto', 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +18,764 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #fff;
+}
+
+.navBar {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navBar li {
+  font-family: 'Roboto condensed';
+  font-size: 20px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 1s;
+}
+
+.navBar a:hover {
+  border-bottom: 3px solid red;
+  color: #c6c6c6 !important;
+  padding-bottom: 10px;
+  transition: color 1s;
+}
+
+#shop:hover {
+  padding-bottom: 7px !important;
+}
+
+.content {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+}
+
+.adsContainer {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+}
+
+.navBarContainer {
+  width: 100%;
+  height: 50px;
+  background: #1f1f1f;
+  display: flex;
+  justify-Content: center;
+  align-items: center;
+  text-align: end;
+}
+
+.header {
+  width: 1200px;
+  /* background-color: red; */
+
+}
+
+.headerWrapperLogin span {
+  font-size: 15px;
+  color: #515151;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.headerWrapperLogin {
+  text-align: end;
+}
+
+.headerContainer {
+  display: flex;
+  justify-Content: center;
+  text-align: end;
+  align-items: end;
+
+}
+
+.headerWrapperSearch {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 36px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+}
+.adsContent {
+  background: #6f6f6f;
+  height: 90px;
+  width: 720px;
+}
+
+.ads {
+  width: 1200px;
+  height: 120px;
+  background-image: url("/src/assets/ads_background.png");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center !important;
+}
+
+.adsTextCont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.headerWrapper {
+  display: flex;
+  margin-top: 2rem;
+
+}
+
+.HeaderWrapperLogin {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.headerItem01 {
+  display: flex;
+  align-items: end;
+}
+
+.headerItem01>img {
+  width: auto;
+  height: 130px;
+}
+
+.headerItem02 {
+  display: flex;
+  align-items: end;
+  padding: 1rem;
+  width: 100%;
+  max-width: 46%;
+  margin-left: 1rem;
+}
+
+.searchIcon {
+  fill: #515151;
+  transform: scale(1);
+  cursor: pointer;
+  transition: fill 1s;
+  margin: 0 1rem;
+}
+
+
+
+.cartIcon {
+  transform: scale(0.8);
+  margin: 0 0 0 1rem;
+  cursor: pointer;
+  transition: fill 1s;
+}
+
+.cartIcon:hover {
+  fill: #0000;
+  transition: fill 1s;
+}
+
+.socialIcon:hover {
+  fill: #000;
+  transition: fill 1s;
+}
+
+.socialIcon {
+  fill: #818181;
+  margin: 0 2rem 0 0;
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: fill 1s;
+}
+
+.socialIcon:hover {
+  fill: #000;
+  transition: fill 1s;
+}
+
+.headerItem02>img {
+  height: 20px;
+  width: auto;
+  padding: 0 1rem;
+}
+
+input[type=text] {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Roboto condensed';
+  text-align: end;
+  max-width: 193px;
+}
+
+input[type=text]:focus-visible {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0e0e0e;
+}
+
+.headerItem03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 30%;
+}
+
+.heroContainer{
+  height: 770px;
+  width: 100%;
+}
+
+.hero{
+  height: 770px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  height: 551px;
+  display: flex;
+  justify-content: center;
+}
+
+.sliderImg {
+  position: relative;
+  z-index: 0;
+}
+
+
+.active {
+  z-index: 200;
+}
+
+.sliderNav{
+  position: absolute; 
+  top :250px; 
+  cursor:pointer;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.sliderNav:hover{
+  stroke: red !important;
+  fill: red !important;
+  transform: scale(1.3);
+  transition: transform 0.5s;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 551px;
+  background: #000000de;
+}
+
+.sliderActive {
+  background-color: rgb(23 23 23 / 71%) !important;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+.navSlider {
+  display: flex;
+  position: absolute;
+  z-index: 500;
+  background: #770c0c;
+}
+
+.buttonSlider {
+  width: 30px;
+  height: 30px;
+  background: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+
+.buttonSlider span {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  
+}
+
+.btnActive {
+  background: red;
+}
+
+.navButtonSlider{
+  position: absolute;
+  z-index: 400;
+  bottom: -551px;
+  left: 581px;
+}
+
+.cardSlider {
+  width: 100%;
+  max-width: 990px;
+  background-color: #fff;
+  height: 300px;
+  position: absolute;
+  z-index: 400;
+  bottom: -90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardSlider h1 {
+  font-size: 40px;
+  color: #1f1f1f;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+.cardSlider h5 {
+  font-size: 20px;
+  color: #1f1f1f;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.wrapperSlider{
+  display: flex;
+  justify-content: center;
+}
+
+.btnWrapper {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.btnWrapperLoadMore {
+  margin-top: 2rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.lineBtn{
+  width: 100%;
+  height: 2px;
+  background-color: #1f1f1f;
+  display: flex;
+  margin-top: -30px;
+}
+
+.lineComics{
+  width: 50%;
+  height: 2px;
+  background-color: #1f1f1f;
+  display: flex;
+  margin: 2rem auto;
+  transition: color 0.5s;
+}
+
+.readyBtn{
+  cursor: pointer;
+}
+
+.greyNavBarContainer{
+  width: 100%;
+  height: 90px;
+  background: #ebebeb;
+  display: flex;
+  justify-Content: center;
+  align-items: center;
+  text-align: end;
+
+}
+.greyNavBar{
+  width: 90%;
+  max-width: 1200px;
+}
+
+.greyNavBar li:hover{
+  background-color:#363636 !important;
+  color: #fff;
+}
+
+.greyNavBar li {
+  font-family: 'Roboto condensed';
+  font-size: 20px;
+  font-weight: bold;
+  color: #353535;
+  cursor: pointer;
+  height: 90px;
+  display:flex;
+  align-items: center;
+  padding: 0 1rem;
+  display: flex;
+  z-index: 1000;
+}
+
+.greyNavBar span {
+  width: 1020px;
+  height: 200px;
+  background: #353535;
+  position: absolute;
+  margin: 45px -415px;
+  display: none;
+  
+}
+.activeMenu{
+  display: block !important;
+}
+
+.graysubMenu {
+  width: 1059px;
+  height: auto;
+  background: #353535;
+  position: absolute;
+  transition: height 0.5s;
+  display: none;
+  justify-content: center;
+  top: 1231px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.grayMenuBtn:hover > svg{
+  fill:red;
+  transition: 0.5s;
+}
+
+.checkFilter {
+  margin-right: 1rem;
+}
+
+label input {
+  visibility: hidden;/* <-- Hide the default checkbox. The rest is to hide and allow tabbing, which display:none prevents */
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  overflow: hidden;
+}
+label span {/* <-- Style the artificial checkbox */
+  height: 10px;
+  width: 10px;
+  border: 1px solid grey;
+  display: inline-block;
+}
+[type=checkbox]:checked + span {/* <-- Style its checked state */
+  background: black;
+}
+
+.grayMenuBtn:hover > .graysubMenu {
+  display: flex;
+  transition: height 0.5s;
+}
+
+.graySubMenuList li {
+  color: #fff !important;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  height: 35px;
+}
+
+.graySubMenuList{
+  display: grid !important;
+  grid-template-columns: auto auto;
+  padding: 4rem;
+  width: 100%;
+}
+
+.downArrow{
+  margin: 3px 9px;
+  fill: #353535;
+  transition: 0.5s;
+}
+
+.greyNavBar ul {
+  display: flex;
+  justify-content: space-around;  
+}
+
+.comicsSessionContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-Content: center;
+  align-items: center;
+  text-align: end;
+}
+
+.comicsWrapper img{
+  width: 276px;
+  height: 410px;
+}
+
+.gridContainerComics{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.gridItemComics > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #4b4b4b;
+  margin-top: 1rem;
+}
+.gridItemComics > h5 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #4b4b4b;
+  margin-top: 1rem;
+}
+
+.gridItemComics:hover > .lineComics {
+  background-color: red;
+  transition: color 0.5s;
+}
+
+.gridItemComics{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  cursor:pointer;
+}
+
+
+.gridItemComics > img{
+  transition: 0.5s;
+}
+
+.gridItemComics > img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.comicsSession{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  flex-direction: column;
+
+}
+
+.loadMoreBtn {
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+  transform: scale(1.2);
+  margin-bottom: 6px;
+}
+.loadMoreBtn:hover {
+ fill: rgb(105, 6, 6) !important;
+
+}
+
+btnWrapperLoadMore > svg:hover {
+  fill: rgb(105, 6, 6) !important;
+  transform: scale(1.5);
+}
+
+
+.footerContainer {
+  background: #1f1f1f;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  color: white;
+  width: 90%;
+  max-width: 1200px;
+}
+.showFilterBtnContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: end;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.showFilterBtn {
+  width: 100%;
+  max-width: 1222px;
+  display: grid !important;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+.filterBtn{
+  border: 1px solid #393939;
+  color: #444;
+  font-size: 20px;
+  padding: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.rigthsSession { 
+  display: flex;
+}
+
+.rigthsSession ul li h3:hover { 
+  color:#fff;
+  transition: 0.4s;
+}
+
+.rigthsSession ul{ 
+  display: grid !important;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  align-items: center;
+}
+
+.rigthsSession ul li h3 {
+  color: #818181;
+  font-size: 16px;
+  font-family: 'Roboto Condensed';
+  font-weight: 400 !important;
+  text-align: left;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+.footerSocialIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footerSocialIcon svg:hover {
+  fill: #1da1f2 !important;
+
+}
+
+.footerLinks { 
+  display: grid !important;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  justify-content: space-evenly;
+}
+
+.footerLinks ul li h3{
+  text-align: left !important;
+  font-weight: 400;
+  line-height: 2;
+  font-family: 'Roboto Condensed';
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footerLinks ul li h3:hover{
+  color: #a1a1a1;
+  transition: 0.5s;
+}
+
+.footerLinks ul li h2 {
+  text-align: left !important;
+  font-weight: bold;
+  line-height: 2;
+  font-size: 18;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 70%;
+    float: left;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+
+/* @media (min-width: 992px) { ... }
+
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ads {
+    width: 1200px
+  }
+
+  .header {
+    width: 1200px;
+  }
+
 }

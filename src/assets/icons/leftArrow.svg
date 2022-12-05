@@ -1,0 +1,6 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="18.914px" height="36.414px" viewBox="0 0 18.914 36.414" enable-background="new 0 0 18.914 36.414" xml:space="preserve">
+<text transform="matrix(1 0 0 1 306 396)" font-family="'Myriad-Roman'" font-size="12">&lt;img id=&apos;hero02&apos; className={&quot;sliderImg active&quot;}  src={heroimg02}&gt;&lt;/img&gt;</text>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M0.707,17.914l17.5,17.5
+	 M0.707,18.914l17.5-17.5"/>
+</svg>

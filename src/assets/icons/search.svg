@@ -1,0 +1,9 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="22px" height="22px" viewBox="0 0 22 22" enable-background="new 0 0 22 22" xml:space="preserve">
+<text transform="matrix(1 0 0 1 306 396)" font-family="'Myriad-Roman'" font-size="12">transform: scale(0.5);</text>
+<text transform="matrix(1 0 0 1 306 396)" font-family="'Myriad-Roman'" font-size="12">transform: scale(0.5);</text>
+<path fill="#5E5E5E" d="M15.724,13.836h-0.994l-0.353-0.339c1.234-1.434,1.976-3.296,1.976-5.321C16.353,3.66,12.692,0,8.176,0
+	C3.66,0,0,3.66,0,8.176c0,4.515,3.66,8.177,8.176,8.177c2.025,0,3.887-0.743,5.321-1.977l0.339,0.354v0.993L20.126,22L22,20.126
+	L15.724,13.836z M8.176,13.836c-3.132,0-5.66-2.528-5.66-5.66c0-3.132,2.528-5.66,5.66-5.66s5.66,2.528,5.66,5.66
+	C13.836,11.308,11.308,13.836,8.176,13.836"/>
+</svg>

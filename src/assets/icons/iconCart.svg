@@ -1,0 +1,8 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<text transform="matrix(1 0 0 1 306 396)"><tspan x="0" y="0" font-family="'Myriad-Roman'" font-size="12">display: flex;</tspan><tspan x="0" y="14.4" font-family="'Myriad-Roman'" font-size="12">justify-content: end;</tspan><tspan x="0" y="28.8" font-family="'Myriad-Roman'" font-size="12">align-items: center;</tspan><tspan x="0" y="43.2" font-family="'Myriad-Roman'" font-size="12">height: 36px;</tspan><tspan x="0" y="57.6" font-family="'Myriad-Roman'" font-size="12">margin-top: 4rem;</tspan></text>
+<path fill="#5E5E5E" d="M9,24c-1.65,0-2.985,1.35-2.985,3S7.35,30,9,30s3-1.35,3-3S10.65,24,9,24 M0,0v3h3l5.4,11.385L6.375,18.06
+	C6.135,18.48,6,18.975,6,19.5c0,1.65,1.35,3,3,3h18v-3H9.63c-0.21,0-0.375-0.165-0.375-0.375l0.045-0.18l1.35-2.445h11.175
+	c1.125,0,2.115-0.615,2.625-1.545l5.37-9.735C29.94,5.01,30,4.755,30,4.5C30,3.675,29.325,3,28.5,3H6.315l-1.41-3H0z M24,24
+	c-1.65,0-2.985,1.35-2.985,3S22.35,30,24,30s3-1.35,3-3S25.65,24,24,24"/>
+</svg>
